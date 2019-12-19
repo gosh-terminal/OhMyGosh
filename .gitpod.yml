@@ -3,4 +3,4 @@ image:
 
 
 tasks:
-  - init: go build -o ohmygosh src/*.go
+  - init: make install
