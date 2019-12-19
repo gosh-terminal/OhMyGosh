@@ -3,4 +3,4 @@ image:
 
 
 tasks:
-  - init: make install
+  - init: ./tools/setup.sh
