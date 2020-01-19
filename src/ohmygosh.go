@@ -30,5 +30,11 @@ func initInteractive() {
 }
 
 func main() {
-	initInteractive()
+	if len(os.Args) > 1 {
+		if os.Args[1] == "init" {
+			initInteractive()
+			return
+		}
+	}
+	println("help\n\tohmygosh [command]\n\t\tinit: initialize new project!")
 }
